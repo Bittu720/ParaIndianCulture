@@ -1,31 +1,25 @@
 *{
     margin: 0;
     padding: 0;
-
 }
-
 .main{
     width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
     background-image: url(https://i.ibb.co/WWRGbWB1/5.jpg);
     background-position: center;
     background-size: cover;
-    
     height: 100vh;
 }
-
 .navbar{
     width: 1200px;
     height: 75px;
     margin: auto;
 }
-
 .icon{
     width: 200px;
     float: left;
     height: 70px;
 }
-
 .logo{
     color: #ff7200;
     font-size: 25px;
@@ -35,29 +29,24 @@
     padding-top: 10px;
     margin-top: 5px
 }
-
 .menu{
     width: 400px;
     float: left;
     height: 70px;
 }
-
 ul{
     float: left;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 ul li{
     list-style: none;
     display: inline-block;
     margin-left: 62px;
-
     margin-top: 27px;
     font-size: 14px;
 }
-
 ul li a{
     text-decoration: none;
     color: #fff;
@@ -75,13 +64,11 @@ ul li a:hover{
 .dropdown ul li{
     display: block;
 }
-
 .search{
     width: 330px;
     float: left;
     margin-left: 270px;
 }
-
 .srch{
     font-family: 'Times New Roman';
     width: 200px;
@@ -97,7 +84,6 @@ ul li a:hover{
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
-
 .btn{
     width: 100px;
     height: 40px;
@@ -114,15 +100,12 @@ ul li a:hover{
 .btn:hover{
     color: #000;
 }
-
 .btn:focus{
     outline: none;
 }
-
 .srch:focus{
     outline: none;
 }
-
 .content{
     width: 1200px;
     height: auto;
@@ -130,7 +113,6 @@ ul li a:hover{
     color: #fff;
     position: relative;
 }
-
 .content .par{
     padding-left: 20px;
     padding-bottom: 25px;
@@ -138,7 +120,6 @@ ul li a:hover{
     letter-spacing: 1.2px;
     line-height: 30px;
 }
-
 .content h1{
     font-family: 'Times New Roman';
     font-size: 50px;
@@ -146,7 +127,6 @@ ul li a:hover{
     margin-top: 9%;
     letter-spacing: 2px;
 }
-
 .content .cn{
     width: 160px;
     height: 40px;
@@ -157,25 +137,20 @@ ul li a:hover{
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
-    transition: .4s ease;
-    
+    transition: .4s ease;  
 }
-
 .content .cn a{
     text-decoration: none;
     color: #000;
     transition: .3s ease;
 }
-
 .cn:hover{
     background-color: #fff;
 }
-
 .content span{
     color: #ff7200;
     font-size: 65px
 }
-
 .form{
     width: 250px;
     height: 380px;
@@ -187,7 +162,6 @@ ul li a:hover{
     border-radius: 10px;
     padding: 25px;
 }
-
 .form h2{
     width: 220px;
     font-family: sans-serif;
@@ -199,7 +173,6 @@ ul li a:hover{
     margin: 2px;
     padding: 8px;
 }
-
 .form input{
     width: 240px;
     height: 35px;
@@ -214,16 +187,13 @@ ul li a:hover{
     margin-top: 30px;
     font-family: sans-serif;
 }
-
 .form input:focus{
     outline: none;
 }
-
 ::placeholder{
     color: #fff;
     font-family: Arial;
 }
-
 .btnn{
     width: 240px;
     height: 40px;
